@@ -1,0 +1,179 @@
+
+nav
+{}
+.navbar{
+   background-color: #000000 !important;
+
+ z-index: 999;
+ position:fixed;
+ top: 0;
+ /* left:0; */
+ right:0;
+ width: 100%;
+ transition:0.15s;
+}
+
+.nav-item{
+     text-transform: uppercase;
+   font-size:0.97em;
+     padding-right:1.5em;
+
+}
+.nav-item::first-letter{
+    font-size:120%
+}
+.scrolldown{
+     
+     background-color: #000000ba !important;
+     padding-top: 0;
+     padding-bottom: 0;
+}
+.scrollup{
+
+    background-color: #000000 !important;
+}
+.navbar-brand{
+    padding-top:0;
+    padding-bottom:0;
+    padding-right:0.3125rem;
+    padding-left:0.3125rem;
+}
+.logo{
+  width:7em;
+  margin:0.2em;
+}
+.logo-text{
+    font-size:0.8em;
+    text-align:center;
+    font-weight:350;
+}
+
+
+body{
+    background: url('../img/finger.jpg') no-repeat;
+    background-color: #0d0d0d;
+
+   background-size: auto calc(var(--vh, 1vh) * 100);
+    -webkit-background-size: auto calc(var(--vh, 1vh) * 100);
+   padding-top: .5em;
+   background-position: center 0vh;
+   background-attachment: fixed;
+ 
+ /*   background-size: auto 100%;
+ 
+    background-repeat:no-repeat;
+    
+   
+   
+  */
+    }
+
+
+section{
+    background-color: white;
+}
+.home{
+    background-color:transparent;
+    color:white;
+    padding-top:25vh;
+    height: 100vh;
+      font-size:1.4em;
+    font-weight:100; 
+    }
+
+
+.coming-soon{
+  height:15vw;
+ font-size: 5vw;
+}
+@media only screen and (max-width: 1000px) {
+  .coming-soon{
+ height:14vw;
+  font-size: 7vw;
+}
+
+
+
+}
+@media only screen and (max-width: 425px) {
+  .coming-soon{
+ height:22vw;
+  font-size: 10vw;
+}
+.home{
+      font-size:1.3em;
+    }
+
+}
+
+.homecenter text {
+    stroke-dasharray: 400px;
+    stroke-dashoffset: 400px;
+    animation: line-anim 4.5s ease forwards 0.5s;
+    font-weight: 400;
+   
+    /* align-items: center; */
+}
+
+@keyframes line-anim {
+    from {
+        fill: transparent;
+    }
+    to {
+        stroke-dashoffset: 0;
+        fill: #ffffff;
+        
+    }
+}
+
+.sec-title{
+    padding-top:1em;
+    font-weight:300;
+     
+  padding-bottom:1.1em;
+
+}
+
+.tech-div{
+    padding-right:2em;
+    padding-bottom:4em;
+      padding-left:2em;
+}
+.tech-div h1{
+
+    font-weight: 600;
+    text-align:center;
+    font-size:2em;
+  
+  }
+ .tech-div img{height:6em;display: block;margin-bottom:1em;margin-left: auto;margin-right: auto;}
+
+footer{
+
+    background-color:#343330;
+    color: white;
+     font-weight:100;
+    
+    
+
+}
+
+.contact{
+    padding-bottom:5em;
+
+}
+.contact .name{
+   font-weight:400;
+}
+.contact .mob-num{
+    font-size:1em;
+   
+}
+.contact .email{
+
+    font-size:1em;
+}
+
+.invisible-footer{
+color:black;
+}
